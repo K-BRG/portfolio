@@ -171,13 +171,15 @@ a {
 
 }
 
+/*
 .main .row {
   animation: scale .5s ease;
-  -moz-animation: scale .5s ease; /* Firefox */
-  -webkit-animation: scale .5s ease; /* Safari and Chrome */
-  -o-animation: scale .5s ease; /* Opera */
-
+  -moz-animation: scale .5s ease; 
+  -webkit-animation: scale .5s ease; 
+  -o-animation: scale .5s ease; 
 }
+
+*/
 
 .sidenav .logo {
     animation: fadein .5s ease;
