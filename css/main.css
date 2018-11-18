@@ -164,25 +164,64 @@ a {
   /* fade in */
 
 .main .row .column {
-    animation: fadein 3s;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
+    animation: fadein 2s ease;
+    -moz-animation: fadein 2s ease; /* Firefox */
+    -webkit-animation: fadein 2s ease; /* Safari and Chrome */
+    -o-animation: fadein 2s ease; /* Opera */
 
 }
 
-.sidenav img {
-    animation: fadein 1s;
-    -moz-animation: fadein 1s; /* Firefox */
-    -webkit-animation: fadein 1s; /* Safari and Chrome */
-    -o-animation: fadein 1s; /* Opera */
+.main .row {
+  animation: scale .5s ease;
+  -moz-animation: scale .5s ease; /* Firefox */
+  -webkit-animation: scale .5s ease; /* Safari and Chrome */
+  -o-animation: scale .5s ease; /* Opera */
+
 }
 
-.sidenav a {
-    animation: fadein 1s;
-    -moz-animation: fadein 1s; /* Firefox */
-    -webkit-animation: fadein 1s; /* Safari and Chrome */
-    -o-animation: fadein 1s; /* Opera */
+.sidenav .logo {
+    animation: fadein .5s ease;
+    -moz-animation: fadein .5s ease; /* Firefox */
+    -webkit-animation: fadein .5s ease; /* Safari and Chrome */
+    -o-animation: fadein .5s ease; /* Opera */
+}
+
+.sidenav .logo:hover { 
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.2);
+  transition: all 200ms ease-in;
+  transform: scale(1.2);
+}
+
+.sidenav .logo{
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 0px 0 0px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);    
+}
+
+.sidenav .navlinks a {
+    animation: fadein .5s ease;
+    -moz-animation: fadein .5s ease; /* Firefox */
+    -webkit-animation: fadein .5s ease; /* Safari and Chrome */
+    -o-animation: fadein .5s ease; /* Opera */
 }
 
 @keyframes fadein {
@@ -194,6 +233,10 @@ a {
     }
 }
 
+@keyframes scale {
+	from { transform: scale(0.7); }
+  100% { transform: scale(1); }
+}
 
 /* image hover fx */
 
