@@ -199,14 +199,6 @@ a {
 }
 
 .sidenav .logo{
-  cursor: pointer;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  padding: 0px 0 0px 0;
-  margin-top: 50px;
-  margin-bottom: 50px;
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1); 
   -ms-transition: all 200ms ease-in;
