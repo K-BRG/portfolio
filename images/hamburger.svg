@@ -8,7 +8,7 @@
 <desc></desc>
 <g id="TabBar-Icons">
 	<g id="Hamburger">
-		<path d="M0,2h25v4H0V2z M0,10h25v4H0V10z M0,18h25v4H0V18z"/>
+		<path fill="#FFFFFF" d="M0,2h25v4H0V2z M0,10h25v4H0V10z M0,18h25v4H0V18z"/>
 	</g>
 </g>
 </svg>
