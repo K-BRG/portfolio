@@ -13,7 +13,7 @@ a {
   outline: transparent !important;
 }
  
- 
+ /*
  /* The sidebar menu */
  .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -52,7 +52,13 @@ a {
 
 /* top nav media queries*/
 
-
+/*
+  @media screen and (min-width: 600px) {
+    .topnav {
+    display: none;
+    }
+  }
+  */
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -384,10 +390,4 @@ a {
     opacity: 0.7;
   }
 
-  /*
-  @media screen and (min-width: 600px) {
-    .topnav {
-    display: none;
-    }
-  }
-  */
+  
