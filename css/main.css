@@ -52,32 +52,28 @@ a {
 
 /* top nav media queries*/
 
-/*
 @media screen and (min-width: 600px) {
   .topnav {
   display: none;
   }
 }
-*/
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .sidenav {
+  .topnav {
     overflow: hidden;
     background-color: #101010;
   }
 
-  
-  .topnav {
+  .sidenav {
     display: none;
   }
-  
 
   .main {
     margin-left: 0px !important;
   }
   
-  .sidenav a {
+  .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -87,7 +83,7 @@ a {
     font-size: 17px;
   }
   
-  .sidenav .navlinks a:hover {
+  .topnav .navlinks a:hover {
     background-color: rgb(255, 255, 255);
     color: black;
   }
@@ -106,8 +102,8 @@ a {
   }
   */
   
-  .sidenav .navlinks a {display: none;}
-  .sidenav .hamburger {
+  .topnav .navlinks a {display: none;}
+  .topnav .hamburger {
     float: right;
     display: block;
     width: 48px;
@@ -116,7 +112,7 @@ a {
     
   }
   
-  .sidenav .logo {
+  .topnav .logo {
     float: left;
     cursor: pointer;
     display: block;
