@@ -160,14 +160,23 @@ a {
     display: block;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     display: block;
     text-align: center;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
   .sidenav.responsive .navlinks{
     padding-top: 80px;
   }
+
+  .sidenav.responsive {
+    animation: fadein .5s ease;
+    -moz-animation: fadein .5s ease; /* Firefox */
+    -webkit-animation: fadein .5s ease; /* Safari and Chrome */
+    -o-animation: fadein .5s ease; /* Opera */
+}
 }
 
 
