@@ -52,11 +52,7 @@ a {
 
 /* top nav media queries*/
 
-@media screen and (min-width: 600px) {
-  .topnav {
-  display: none;
-  }
-}
+
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -386,4 +382,10 @@ a {
     font-size: 1em;
     padding: 0px 32px;
     opacity: 0.7;
+  }
+
+  @media screen and (min-width: 600px) {
+    .topnav {
+    display: none;
+    }
   }
