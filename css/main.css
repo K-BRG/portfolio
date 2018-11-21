@@ -69,36 +69,23 @@ a {
 @media screen and (max-width: 600px) {
   .sidenav {
     background-color: #202020;
-    height: 15%; /* Full-height: remove this if you want "auto" height */
+    height: 50px; /* Full-height: remove this if you want "auto" height */
     width: 100%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    padding-top: 20px;
-  }
-
-  .topnav {
-    display: none;
+    overflow: hidden; /* Disable horizontal scroll */
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .main {
-    margin-top: 120px !important;
+    margin-top: 70px !important;
     margin-left: 0px !important;
   }
   
-  .sidenav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
+ 
   /*
   .sidenav .navlinks a:hover {
     background-color: rgb(255, 255, 255);
@@ -126,7 +113,7 @@ a {
     display: block;
     width: 24px;
     margin-right: 30px;
-    margin-top: 20px;
+    top: 10px;
     
   }
   
@@ -138,8 +125,9 @@ a {
     margin-right: auto;
     width: 48px;
     padding: 0px 0px 0px 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    top: 0px;
+    margin-top: 1px;
+    margin-bottom: 0px;
     margin-left: 30px;
 }
 
@@ -156,7 +144,6 @@ a {
     top: 0;
     left: 0;
     overflow: hidden;
-    padding-top: 20px;
   }
   .sidenav.responsive a.hamburger {
     position: absolute;
@@ -172,6 +159,13 @@ a {
     display: block;
     text-align: left;
     padding-left: 30px;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    text-decoration: none;
+    font-size: 1.4em;
+
+  
   }
   .sidenav.responsive .navlinks{
     padding-top: 100px;
