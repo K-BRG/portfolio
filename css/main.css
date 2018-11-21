@@ -65,9 +65,11 @@ a {
     background-color: #101010;
   }
 
+  /*
   .sidenav {
     display: none;
   }
+  */
 
   .main {
     margin-left: 0px !important;
