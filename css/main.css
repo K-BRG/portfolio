@@ -22,7 +22,7 @@ a {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #131313; /* Black */
+    background-color: #101010; /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
@@ -68,7 +68,7 @@ a {
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .sidenav {
-    background-color: #131313;
+    background-color: #101010;
     height: 50px; /* Full-height: remove this if you want "auto" height */
     width: 100%; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -81,8 +81,9 @@ a {
   }
 
   .main {
-    margin-top: 85px !important;
+    margin-top: 90px !important;
     margin-left: 0px !important;
+    width: 100%;
     overflow-x: hidden;
   }
   
