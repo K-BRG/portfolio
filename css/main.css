@@ -33,10 +33,9 @@ a {
 
 /* The navigation menu links */
 .sidenav .navlinks a {
-    padding: 13px 0px 13px 0px;
+    padding: 13px 25% 13px 25%;
     margin: auto;
     width: 50%;
-    margin: 0 auto;
     text-decoration: none;
     font-size: 0.9em;
     color: #ffffff;
@@ -44,8 +43,6 @@ a {
     text-align: left;
     letter-spacing: 0.02em;
     font-weight: 600;
-    margin: auto;
-    width: 50%;
     text-transform: uppercase;
     
 }
@@ -272,10 +269,10 @@ a {
     z-index: 1;
   }
   .sidenav a:hover {
-    color: rgb(241, 54, 69);
+    color: rgb(255, 255, 255);
   }
   .sidenav .navlinks a:after {
-    /*
+    
     display: block;
     position: absolute;
     top: 0;
@@ -287,7 +284,7 @@ a {
     height: px;
     content: '.';
     color: transparent;
-    background: rgb(10, 10, 10);
+    background: rgb(255, 71, 71);
     visibility: none;
     opacity: 0;
     z-index: -1;
@@ -328,19 +325,19 @@ a {
     -o-animation: fadein .5s ease; /* Opera */
 }
 
-/*
+
 .sidenav .logo:hover { 
   z-index: 2;
   -webkit-transition: all 200ms ease-in;
-  -webkit-transform: scale(1.2);
+  -webkit-transform: scale(1.1);
   -ms-transition: all 200ms ease-in;
-  -ms-transform: scale(1.2);   
+  -ms-transform: scale(1.1);   
   -moz-transition: all 200ms ease-in;
-  -moz-transform: scale(1.2);
+  -moz-transform: scale(1.1);
   transition: all 200ms ease-in;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
-*/
+
 
 .sidenav .logo{
   -webkit-transition: all 200ms ease-in;
@@ -406,7 +403,7 @@ a {
 }
 
 .container:hover  {
-    background-color: rgb(232, 0, 28);
+    background-color: rgb(255, 71, 71);
     /*background-color: rgb(241, 54, 69);*/
     /*background-color: rgb(42, 46, 255);*/
   }
@@ -419,9 +416,9 @@ a {
 .text {
   /*background-color: rgb(255, 255, 255);*/
   color: rgb(255, 255, 255);
-  font-size: 1.6em;
+  font-size: 1.5em;
   padding: 16px 32px;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -431,7 +428,7 @@ a {
     font-size: 1em;
     padding: 0px 32px;
     opacity: 1;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   
