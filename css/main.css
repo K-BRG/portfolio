@@ -58,6 +58,21 @@ a {
     margin-bottom: 50px;
 }
 
+.sidenav .social a {
+  display: inline-block; /* Here */
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.sidenav .social {
+  position: absolute;
+  padding: 13px 25% 13px 25%;
+  margin: auto;
+  width: 50%;
+  bottom: 50px;
+}
+
 
 /* top nav media queries*/
 
@@ -92,6 +107,9 @@ a {
     overflow-x: hidden;
   }
   
+  .social {
+    display: none;
+  }
  
   /*
   .sidenav .navlinks a:hover {
@@ -318,14 +336,14 @@ a {
 
 */
 
-.sidenav .logo {
+.sidenav {
     animation: fadein .5s ease;
     -moz-animation: fadein .5s ease; /* Firefox */
     -webkit-animation: fadein .5s ease; /* Safari and Chrome */
     -o-animation: fadein .5s ease; /* Opera */
 }
 
-
+/* logo hover */
 .sidenav .logo:hover { 
   z-index: 2;
   -webkit-transition: all 200ms ease-in;
@@ -338,7 +356,6 @@ a {
   transform: scale(1.1);
 }
 
-
 .sidenav .logo{
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1); 
@@ -350,12 +367,30 @@ a {
   transform: scale(1);    
 }
 
-.sidenav .navlinks a {
-    animation: fadein .5s ease;
-    -moz-animation: fadein .5s ease; /* Firefox */
-    -webkit-animation: fadein .5s ease; /* Safari and Chrome */
-    -o-animation: fadein .5s ease; /* Opera */
+/* social hover */
+.sidenav .social a:hover { 
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.2);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.2);
+  transition: all 200ms ease-in;
+  transform: scale(1.2);
 }
+
+.sidenav .social a{
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);    
+}
+
 
 @keyframes fadein {
     from {
