@@ -200,6 +200,14 @@ a {
     -webkit-animation: fadein .5s ease; /* Safari and Chrome */
     -o-animation: fadein .5s ease; /* Opera */
 }
+  .sidenav.responsive .social{
+    display: block;
+    position: absolute;
+    padding: 20px;
+    
+      
+  }
+
 }
 
 
@@ -236,7 +244,7 @@ a {
   /* Create four equal columns that sits next to each other */
   .column {
     flex: 30%;
-    max-width: 50%;
+    max-width: 100%;
     /*padding: 0 15px;*/
     padding: 0 0px;
   }
@@ -247,9 +255,9 @@ a {
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .column {
-      flex: 40%;
+      flex: 50%;
       max-width: 50%;
     }
   }
@@ -302,6 +310,7 @@ a {
     height: px;
     content: '.';
     color: transparent;
+    /*background: rgb(42, 46, 255);*/
     background: rgb(255, 71, 71);
     visibility: none;
     opacity: 0;
@@ -439,7 +448,6 @@ a {
 
 .container:hover  {
     background-color: rgb(255, 71, 71);
-    /*background-color: rgb(241, 54, 69);*/
     /*background-color: rgb(42, 46, 255);*/
   }
 
