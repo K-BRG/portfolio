@@ -53,8 +53,12 @@ small {
     }
 }
 
+.kontakt {
+    display: none;
+  }
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1200px) {
 
     .main .about .about-text {
         color: white;
@@ -62,17 +66,19 @@ small {
         word-wrap: break-word;
         width: 90%;
         padding: 0px 50px 50px 20px;
-        margin-right: 10px;
+        margin-right: 0px;
+        padding-bottom: 50px;
     }
     .main .about img {
         width: 100%;
         height: auto;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
         
     }
 
     h1 {
         font-size: 40px;
+        padding-bottom: 20px;
     }
     
     p {
@@ -91,4 +97,34 @@ small {
         line-height: 20px;
         opacity: 0.75;
     }
+
 }
+
+@media screen and (max-width: 600px) {
+    .main .button .kontakt {
+        background-color: rgb(255, 71, 71);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-weight: 800;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: relative;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .main .button {
+        
+        display: block;
+        padding: 0px 20px 0px 20px;
+        margin-right: 70px;
+        
+    }
+}
+
