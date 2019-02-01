@@ -3,42 +3,44 @@ body, html{
 }
 
 h1 {
-    font-size: 6vh;
+    font-size: 3.5em;
+    width: 500px;
 }
-
 
 .skontaktuj {
     width: 500px;
 }
 
 .main .about .about-text p {
-    font-size: 1.75vh;
-    line-height: 3.5vh;
+    font-size: 1em;
+    line-height: 2em;
     opacity: 0.75;
     padding-bottom: 5vh;
 }
 
 h3 {
-    font-size: 2.5vh;
+    font-size: 1.5em;
 }
 
 .main .about .about-text small {
-    font-size: 1.25vh;
-    line-height: 1.75vh;
+    font-size: 0.75em;
+    line-height: 1.75em;
     opacity: 0.75;
+    
 }
 
 .main .about .about-text {
     color: white;
     position: absolute;
     word-wrap: break-word;
-    width: 400px;
-    padding: 17vh 0 0 120px;
+    width: 500px;
+    padding: 150px 0 100px 120px;
 }
 
-.main .about img {
+.main .about .avatar {
+    position: fixed;
     height: 100vh;
-    float: right;
+    right: calc(100% - 100vw);
 }
 
 
@@ -72,6 +74,7 @@ h3 {
 
 .koperta {
     width: 50vw;
+    float: right;
 }
 
 
@@ -86,10 +89,13 @@ h3 {
         margin-right: 50px;
         padding-bottom: 50px;
     }
-    .main .about img {
-        width: 100%;
+    .main .about .avatar {
+        width: 100vw;
         height: auto;
         padding-bottom: 30px;
+        position: relative;
+        display: none;
+        
     }
 
     h1 {
@@ -111,7 +117,8 @@ h3 {
     small {
         font-size: 13px !important;
         line-height: 20px !important;
-        opacity: 0.75;
+        opacity: 0.1;
+        
     }
 
     .koperta {
@@ -158,6 +165,14 @@ h3 {
         display: none;
     }
     
+    .avatar {
+        display: none;
+    }
+
+    .imie {
+        font-size: 10vw;
+    }
+
     .skontaktuj {
         font-size: 10vw;
     }
