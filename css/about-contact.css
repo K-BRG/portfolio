@@ -6,6 +6,13 @@ h1 {
     font-size: 6.5vh;
 }
 
+.imie {
+    width: 400px;
+}
+.skontaktuj {
+    width: 500px;
+}
+
 p {
     font-size: 1.75vh;
     line-height: 3vh;
@@ -21,6 +28,7 @@ small {
     font-size: 1.25vh;
     line-height: 1.75vh;
     opacity: 0.75;
+    width: 200px;
 }
 
 .main .about .about-text {
@@ -53,9 +61,21 @@ small {
     }
 }
 
-.kontakt {
+.kontakt-btn {
     display: none;
   }
+
+.kontakt-link {
+    color: rgb(255, 71, 71);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 0 80px 0;
+    position: ;
+}
+
+.kontakt-naglowek {
+    padding: 0 0 40px 0;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -101,7 +121,7 @@ small {
 }
 
 @media screen and (max-width: 600px) {
-    .main .button .kontakt {
+    .main .button .kontakt-btn {
         background-color: rgb(255, 71, 71);
         border: none;
         color: white;
@@ -116,15 +136,19 @@ small {
         cursor: pointer;
         position: relative;
         width: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 00px;
     }
 
     .main .button {
-        
         display: block;
         padding: 0px 20px 0px 20px;
         margin-right: 70px;
-        
+        margin-bottom: 80px;
     }
+
+    .koperta {
+        display: none;
+    }
+    
 }
 
