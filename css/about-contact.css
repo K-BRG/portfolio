@@ -13,9 +13,9 @@ h1 {
 
 .main .about .about-text p {
     font-size: 1.75vh;
-    line-height: 3vh;
+    line-height: 3.5vh;
     opacity: 0.75;
-    padding-bottom: 50px;
+    padding-bottom: 5vh;
 }
 
 h3 {
@@ -33,7 +33,7 @@ h3 {
     position: absolute;
     word-wrap: break-word;
     width: 400px;
-    padding: 150px 0 0 120px;
+    padding: 17vh 0 0 120px;
 }
 
 .main .about img {
@@ -66,12 +66,12 @@ h3 {
     color: rgb(255, 71, 71);
     cursor: pointer;
     text-decoration: none;
-    margin: 0 0 80px 0;
-    position: ;
+    margin: 0 0 1vh 0;
+    
 }
 
-.kontakt-naglowek {
-    padding: 0 0 40px 0;
+.koperta {
+    width: 50vw;
 }
 
 

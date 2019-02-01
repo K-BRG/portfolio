@@ -7,6 +7,7 @@ body, html{
 
 a {
   outline: transparent !important;
+  text-decoration: none;
 }
  
  /*
