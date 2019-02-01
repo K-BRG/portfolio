@@ -6,14 +6,12 @@ h1 {
     font-size: 6.5vh;
 }
 
-.imie {
-    width: 400px;
-}
+
 .skontaktuj {
     width: 500px;
 }
 
-p {
+.main .about .about-text p {
     font-size: 1.75vh;
     line-height: 3vh;
     opacity: 0.75;
@@ -24,11 +22,10 @@ h3 {
     font-size: 2.5vh;
 }
 
-small {
+.main .about .about-text small {
     font-size: 1.25vh;
     line-height: 1.75vh;
     opacity: 0.75;
-    width: 200px;
 }
 
 .main .about .about-text {
@@ -36,7 +33,7 @@ small {
     position: absolute;
     word-wrap: break-word;
     width: 400px;
-    padding: 150px 0 0 100px;
+    padding: 150px 0 0 120px;
 }
 
 .main .about img {
@@ -84,16 +81,15 @@ small {
         color: white;
         position: relative;
         word-wrap: break-word;
-        width: 90%;
-        padding: 0px 50px 50px 20px;
-        margin-right: 0px;
+        width: 70%;
+        padding: 20px 50px 50px 50px;
+        margin-right: 50px;
         padding-bottom: 50px;
     }
     .main .about img {
         width: 100%;
         height: auto;
         padding-bottom: 30px;
-        
     }
 
     h1 {
@@ -102,8 +98,8 @@ small {
     }
     
     p {
-        font-size: 16px;
-        line-height: 25px;
+        font-size: 16px !important;
+        line-height: 25px !important;
         opacity: 0.75;
         padding-bottom: 50px;
     }
@@ -113,14 +109,27 @@ small {
     }
     
     small {
-        font-size: 13px;
-        line-height: 20px;
+        font-size: 13px !important;
+        line-height: 20px !important;
         opacity: 0.75;
+    }
+
+    .koperta {
+        display: none;
     }
 
 }
 
 @media screen and (max-width: 600px) {
+    .main .about .about-text {
+        padding: 0px 50px 50px 20px;
+        width: 90%;
+    }
+
+    .avatar {
+        margin-top: -20px;
+    }
+
     .main .button .kontakt-btn {
         background-color: rgb(255, 71, 71);
         border: none;
@@ -136,19 +145,22 @@ small {
         cursor: pointer;
         position: relative;
         width: 100%;
-        margin-bottom: 00px;
     }
 
     .main .button {
         display: block;
         padding: 0px 20px 0px 20px;
         margin-right: 70px;
-        margin-bottom: 80px;
+        margin-bottom: 100px;
     }
 
     .koperta {
         display: none;
     }
     
+    .skontaktuj {
+        font-size: 10vw;
+    }
+
 }
 
