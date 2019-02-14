@@ -171,6 +171,10 @@ a {
     margin-left: 35px;
   }
 
+  .main .container video {
+    display: none;
+  }
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -253,6 +257,10 @@ a {
 
 /*Grid content*/
 
+#smog-thumb {
+  display: none;
+}
+
 
 .main .row .column img, video {
     display: block;
@@ -287,6 +295,14 @@ a {
       flex: 50%;
       max-width: 50%;
     }
+
+    .main .container video {
+      display: none;
+    }
+
+    #smog-thumb {
+      display: block;
+    }
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -296,25 +312,6 @@ a {
       max-width: 100%;
     }
   }
-
-  /* image hover overlay 
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
-  
-  .main .row .column img:hover .overlay {
-    opacity: 1;
-  }
-  */
 
   /* nav hover effects*/
   .sidenav a {
@@ -350,8 +347,6 @@ a {
     height: 100%;
   }
 
-
-
   /* fade in */
 .main .row .column {
     animation: fadein 2s ease;
@@ -359,25 +354,6 @@ a {
     -webkit-animation: fadein 2s ease; /* Safari and Chrome */
     -o-animation: fadein 2s ease; /* Opera */
 }
-
-/*
-.main .row {
-  animation: scale .5s ease;
-  -moz-animation: scale .5s ease; 
-  -webkit-animation: scale .5s ease; 
-  -o-animation: scale .5s ease; 
-}
-
-*/
-
-/*
-.sidenav {
-    animation: fadein .5s ease;
-    -moz-animation: fadein .5s ease; 
-    -webkit-animation: fadein .5s ease; 
-    -o-animation: fadein .5s ease; 
-}
-*/
 
 /* logo hover */
 .sidenav .logo:hover { 
@@ -443,7 +419,6 @@ a {
 }
 
 /* image hover fx */
-
 .container {
     position: relative;
     width: 100%;
@@ -480,7 +455,6 @@ a {
 
 .container:hover  {
     background-color: rgb(255, 71, 71);
-    /*background-color: rgb(42, 46, 255);*/
   }
 
 .container:hover .middle {
@@ -489,7 +463,6 @@ a {
 }
 
 .text {
-  /*background-color: rgb(255, 255, 255);*/
   color: rgb(255, 255, 255);
   font-size: 1.5em;
   padding: 16px 32px;
@@ -498,7 +471,6 @@ a {
 }
 
 .subtext {
-  /*background-color: rgb(255, 255, 255);*/
   color: rgb(255, 255, 255);
   font-size: 1em;
   padding: 0px 32px;
