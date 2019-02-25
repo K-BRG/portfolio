@@ -56,49 +56,78 @@
             <p>Powietrze Kraków jest to aplikacja informująca o poziomie zanieczyszczenia powietrza w mieście</p>
         </div>
         <div class="proimg"><video autoplay loop poster="images/smog/smog-apka-placeholder.png"><source src="images/smog/smog-apka.mp4" type="video/mp4"></video></div>
+        <span class="spacersmall"></span>
         <div class="proabout">
-            <h2>Problem</h3>
+            <h2>Problem</h2>
             <p>Aplikacja Kraków Powietrze nie posiada kilku podstawowych funkcji, przez co staje się uciążliwa w użytkowaniu. 
                 Najważniejszą kwestią jest brak możliwości dodania więcej niż jednej stacji pomiarowej oraz brak przełącznika 
                 lokalizacji w ustawieniach - aplikacja za każdym razem pyta o włączenie tej funkcji. 
                 Problemem jest również nieczytelny interfejs pomiarów.</p>
-            <h2>Cele</h3>
+            <span class="spacersmall"></span>
+            <h2>Cele</h2>
             <p>Stworzenie nowego interfejsu ekranu głównego oraz ustawień, umożliwienie dodawania kilku stacji 
                 pomiarowych oraz oddanie w ręce użytkownika kontroli nad powiadomieniami i funkcją automatycznej lokalizacji. 
                 Przeprojektowanie aplikacji w ten sposób znacznie poprawi komfort jej użytowania. </p>
         </div>
         <span class="spacer"></span>
+        <div class="proimg"><img src="images/smog/process.png"></div>
+        <span class="spacer"></span>
         <h2 class="imgheader">Kluczowe funkcje</h2>
         <div class="proimg"><img src="images/smog/apka-kluczowe.png"></div>
-        <p class="imgcaption">Ekran główny przedstawia karty stacji pomiarowych, na górnej belce umieszczone zostały ikony dodawania stacji i ustawień aplikacji, na dolnej zaś - infomracje o smogu i funkcja raportowania.</p>
+        <p class="imgcaption">Ekran główny przedstawia karty stacji pomiarowych, na górnej belce umieszczone zostały ikony 
+            dodawania stacji i ustawień aplikacji, na dolnej zaś - informacje o smogu i funkcja raportowania.</p>
         <span class="spacer"></span>
-        <span class="spacer"></span>
-        <h2 class="imgheader">Rozwinięcie karty</h2>
-        <div class="proimg"><img src="images/smog/apka-rozwiniecie.png"></div>
-        <p class="imgcaption">Szczegółowe dane stacji po rozwinięciu karty - stan w procentach i wykres w czasie.</p>
-        <span class="spacer"></span>
-        <span class="spacer"></span>
-        <h2 class="imgheader">Ekrany ustawień</h2>
+        <h2 class="imgheader">Ustawienia</h2>
         <div class="proimg"><img src="images/smog/apka-ustawienia.png"></div>
         <p class="imgcaption">Po lewej stronie - preferowane stacje, po prawej - ustawienia aplikacji.</p>
+        <span class="spacer"></span>
+        <span class="spacer"></span>
 
         <div class="proabout">
-            <h2>Proces</h3>
-            <ol>
-                <li>Research</li>
-                <li>Potrzeby użytkowników</li>
-                <li>Zakres funkcjonalności</li>
-                <li>Wireframes</li>
-                <li>Prototyp</li>
-                <li>Testy i iteracje</li>
-                <li>Finalny projekt</li>
-            </ol>
+            <h2>Research</h3>
+            <p>Problem zanieczyszczenia powietrza jest poważny, zwłaszcza w niektórych rejonach świata. 
+                Na rynku można znaleźć wiele narzędzi, których zadaniem jest informowanie o stanie powietrza - 
+                są to m.in <b>Kanarek, Airly czy Smog Polska.</b> Aplikacja Powietrze Kraków powinna służyć - 
+                jak łatwo się domyślić - krakusom, a ta, na tle konkurencyjnych produktów wypada dosyć blado. 
+                Nie jest to jednak projekt czysto komercyjny - w tej sytuacji <b>najważniejsze jest klarowne 
+                informowanie o jakości powietrza w mieście</b>, w końcu chodzi o zdrowie. Czemu więc nie 
+                korzystać np. z Kanarka? Kraków jest miastem historycznym, jednocześnie znanym z problemów 
+                ze smogiem, a wokół którego tworzy się współczesny system identyfikacji. Dlatego dobrze by 
+                było, żeby miał porządną aplikację od powietrza.</p>
+            <span class="spacer"></span>
+            <h2>Problemy okiem użytkowników</h2>
+            <p>Obecna wersja aplikacji posiada dosyć poważne błędy projektowe. Wskazją na to opinie 
+                użytkowników np. Google Play. Najważniejszym problemem z punktu widzenia funkcji 
+                jaką ma pełnić aplikacja jest <b>możliwość wyświetlania pomiarów tylko jednej stacji</b>, 
+                (chęć sprawdzenia innej stacji wiąże się z wchodzeniem do ustawień). Kraków może nie 
+                jest wielkim miastem, ale są spore różnice w poziomach zanieczyszczenia w zależności 
+                od rejonu, a Krakowianie to mobilni ludzie. Chcą widzieć jak wygląda sytuacja w kilku 
+                miejscach naraz. Najlepiej żeby to było skomunikowane w prosty sposób. I tu pojawia się 
+                problem drugi - obecnie <b>widok poziomu zanieczyszczenia jest dosyć skomplikowany.</b> Wynika to 
+                z dosyć szczegółowych danych jakie nam przedstawia aplikacja - co samo w sobie nie jest 
+                niczym złym, jednak jest to zorganizowanie w sposób chaotyczny, a pomiary w dodatku podzielono 
+                na 3 ekrany dla każdego rodzaju. I w końcu trzeci najczęściej wspominany przez użytkowników 
+                problem - <b>praktycznie brak możliwości zmiany ustawień.</b> Powoduje to, że aplikacja za każdym 
+                razem sprawdza czy pozwoliliśmy jej na korzystanie z GPS. Jeśli nie, to przy każdym uruchomieniu 
+                atakuje ona użytkownika tym samym zapytaniem. Z tym punktem wiąże się też brak możliwości 
+                wyłączenia/włączenia powiadomień.</p>
         </div>
-
-        <div class="img-container">
-
-        </div>
+        
+        <span class="spacer"></span>
+        <h2>Wstępne szkice</h2>
+        <div class="proimg"><img src="images/smog/sketches.jpg"></div>
+        <span class="spacer"></span>
+        <h2>Finalny projekt</h2>
+        <div class="proimg"><img src="images/smog/apka-final.png"></div>
+        <span class="spacer"></span>
+        <div class="proabout">
+            <h2>Podsumowanie</h2>
+            <p>Aplikacja Kraków Powietrze nie posiada kilku podstawowych funkcji, przez co staje się uciążliwa w użytkowaniu. 
+                Najważniejszą kwestią jest brak możliwości dodania więcej niż jednej stacji pomiarowej oraz brak przełącznika 
+                lokalizacji w ustawieniach - aplikacja za każdym razem pyta o włączenie tej funkcji. 
+                Problemem jest również nieczytelny interfejs pomiarów.</p>
     </div>
+    <span class="spacer"></span>
 </div> 
 <div class="accent-mobile"></div>
 </body>
