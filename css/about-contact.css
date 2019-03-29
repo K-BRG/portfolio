@@ -9,7 +9,9 @@ h1 {
 
 a {
     text-decoration: none;
-    color: rgb(255, 71, 71);
+    color: rgb(255, 83, 83);
+    cursor: pointer;
+    font-weight: 700;
 }
 
 .skontaktuj {
@@ -25,6 +27,10 @@ a {
 
 h3 {
     font-size: 1.5em;
+}
+
+.kontakt {
+    margin-bottom: -5px;
 }
 
 .main .about .about-text small {
@@ -64,12 +70,12 @@ h3 {
   }
 
 .kontakt-link {
-    color: rgb(255, 71, 71);
+    color: rgb(255, 83, 83);
     cursor: pointer;
     text-decoration: none;
-    margin: 0 0 1vh 0;
-    
+    font-weight: 700;
 }
+
 
 .main .about .avatar {
     position: fixed;
