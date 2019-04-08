@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
 body, html{
     font-family: 'Montserrat';
     margin: 0;
@@ -9,7 +9,7 @@ a {
   outline: transparent !important;
   text-decoration: none;
 }
- 
+
  /*
  /* The sidebar menu */
  .sidenav {
@@ -53,7 +53,7 @@ a {
     margin: auto;
     width: 50%;
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 15px;
     color: #ffffff;
     display: block;
     text-align: left;
@@ -83,7 +83,7 @@ a {
 
 .sidenav .social {
   position: absolute;
-  padding: 13px 25% 13px 25%;
+  padding: 13px 0 13px 55px;
   margin: auto;
   width: 50%;
   bottom: 50px;
@@ -449,18 +449,29 @@ a {
 
 .text {
   color: rgb(255, 255, 255);
-  font-size: 1.5em;
-  padding: 16px 32px;
+  font-size: 25px;
+  line-height: 30px;
+  padding: 0px 0 20px 0px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .subtext {
   color: rgb(255, 255, 255);
-  font-size: 1em;
-  padding: 0px 32px;
-  opacity: 1;
+  font-size: 16px;
+  padding: 0px 0px;
+  opacity: 0.8;
   font-weight: 500;
 }
+
+.subtext2 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 5px 0 0 0px;
+  opacity: 1;
+  font-weight: 700;
+  
+}
+
 
   

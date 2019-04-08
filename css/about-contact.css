@@ -20,7 +20,7 @@ a {
 
 .main .about .about-text p {
     font-size: 16px;
-    line-height: 2em;
+    line-height: 30px;
     opacity: 0.75;
     padding-bottom: 5vh;
 }
@@ -35,7 +35,7 @@ h3 {
 
 .main .about .about-text small {
     font-size: 13px;
-    line-height: 1.75em;
+    line-height: 25px;
     opacity: 0.75;
     
 }
