@@ -172,23 +172,11 @@ ul {
 
 .nextprocolumn {
 	flex: 1;
-	padding: 0px;
+    padding: 10px;
 	&:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }
+    &:last-child { margin-right: 0; }
 }
 
-.vl {
-    widows: 100%;
-    height:20px;
-	  background: linear-gradient(to right, 
-	                              transparent 0%, 
-	                              transparent calc(50% - 10px), 
-	                              rgb(0, 0, 0) calc(50% - 10px), 
-	                              rgb(0, 0, 0) calc(50% + 10px), 
-	                              transparent calc(50% + 10px), 
-                                  transparent 100%); 
-    opacity: 0.5;
-  }
 
 .dots {
     display: block;
@@ -215,7 +203,7 @@ ul {
 
     .proabout {
         padding: 0px 0px 20px 0px;
-        width: 100%
+        width: 90%
     }
 
     .spacer {
