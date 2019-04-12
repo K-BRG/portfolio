@@ -123,6 +123,7 @@ p {
     height: 40px;
 }
 
+<<<<<<< HEAD
 .nextproimg {
     width: 100%;
 }
@@ -141,6 +142,8 @@ p {
 	&:last-child { margin-right: 0; }
 }
 
+=======
+>>>>>>> parent of 97e1a4d... many design changes, including real process-role-tools section
 
 @media screen and (max-width: 1200px) {
     .content {
