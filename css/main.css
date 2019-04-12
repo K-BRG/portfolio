@@ -431,17 +431,12 @@ a {
 }
 
 .container:hover .image {
-<<<<<<< HEAD
-  opacity: 0;
-  visibility: hidden;
+  opacity: 0.1;
   transition: .5s ease;
-=======
-  opacity: 0.05;
->>>>>>> parent of d7b2330... fucked up
 }
 
 .container:hover video {
-  opacity: 0.05;
+  opacity: 0.1;
 }
 
 .container:hover  {
