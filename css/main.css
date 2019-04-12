@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
 body, html{
     font-family: 'Montserrat';
     margin: 0;
@@ -58,7 +58,7 @@ a {
     display: block;
     text-align: left;
     letter-spacing: 0.02em;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     
 }
@@ -436,26 +436,13 @@ a {
   transition: .5s ease;
 }
 
-
-.imgWrap:hover {
-  background-color: rgb(255, 71, 71);
-  opacity: 1;
-}
-
-img:hover,
-.imgWrap:hover img {
-    visibility: hidden;
-}
-
 .container:hover video {
   opacity: 0.05;
 }
 
-/*
 .container:hover  {
     background-color: rgb(255, 71, 71);
   }
-*/
 
 .container:hover .middle {
   opacity: 1;
@@ -465,9 +452,9 @@ img:hover,
 .text {
   color: rgb(255, 255, 255);
   font-size: 25px;
-  line-height: 27px;
+  line-height: 30px;
   padding: 0px 0 20px 0px;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
