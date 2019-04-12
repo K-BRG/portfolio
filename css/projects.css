@@ -22,7 +22,8 @@ body, html{
 }
 
 h1 {
-    font-size: 44px;
+    font-size: 46px;
+    line-height: 44px;
     color: #333333;
     font-weight: 800;
     text-transform: uppercase;
@@ -177,6 +178,12 @@ ul {
 }
 
 @media screen and (max-width: 1200px) {
+
+    h1 {
+        font-size: 40px;
+        line-height: 35px;
+    }
+
     .content {
         padding: 50px;
     }
