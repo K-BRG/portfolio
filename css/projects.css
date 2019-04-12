@@ -22,26 +22,43 @@ body, html{
 }
 
 h1 {
+    color: #202020;
+    font-weight: 800;
     font-size: 44px;
-    color: #333333;
+    text-transform: uppercase;
+    line-height: 40px;
 }
 
 h2 {
-    color: #333333;
+    color: #202020;
+    font-weight: 800;
     font-size: 30px;
     padding: 0px;
     margin: 20px 0 20px 0;
+    text-transform: uppercase;
 }
 
+/*
+h2::after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 4px;
+    background: rgb(255, 71, 71)
+}
+*/
+
 h3 {
-    color: #333333;
+    color: #666666;
     font-size: 18px;
     padding: 0px 0 0px 0;
     margin: 0px;
 }
 
 p { 
-    color: #333333;
+    color: #666666;
+    font-weight: 500;
     font-size: 16px;
     line-height: 30px;
     margin: 0px;
@@ -71,20 +88,12 @@ p {
 }
 
 .proabout {
-    width: 90%;
+    width: 80%;
     padding: 0px 0 20px 0;
 }
 
 .proabout p {
     padding: 0px 0 0px 0;
-}
-
-
-.proabout ol {
-    padding: 0px 0 0px 0;
-    margin: 0px;
-    line-height: 25px;
-    list-style-position: inside;
 }
 
 .imgheader {
@@ -110,17 +119,46 @@ p {
 
 .spacer {
     display: block;
-    height: 100px;
+    height: 90px;
 }
 
 .spacersmall {
     display: block;
-    height: 70px;
+    height: 80px;
 }
 
 .spacervsmall {
     display: block;
+    height: 20px;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+    margin: 5px 0;
+}
+
+.column {
+	flex: 1;
+	padding: 0 20px 0 0;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #666666;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.symbol {
     height: 40px;
+    opacity: 0.4;
 }
 
 
@@ -145,6 +183,8 @@ p {
     .spacersmall {
         height: 40px;
     }
+
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -174,5 +214,8 @@ p {
         height: 70px;
     }
    
+    .columns {
+		display: none;
+	}
 }
 

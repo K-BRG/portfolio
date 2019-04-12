@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700,800');
 body, html{
     font-family: 'Montserrat';
     margin: 0;
@@ -58,7 +58,7 @@ a {
     display: block;
     text-align: left;
     letter-spacing: 0.02em;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     
 }
@@ -450,9 +450,9 @@ a {
 .text {
   color: rgb(255, 255, 255);
   font-size: 25px;
-  line-height: 30px;
+  line-height: 27px;
   padding: 0px 0 20px 0px;
-  font-weight: 700;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
