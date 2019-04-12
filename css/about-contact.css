@@ -117,8 +117,9 @@ h3 {
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 50px;
         padding-bottom: 20px;
+        line-height: 48px;
     }
     
     p {
@@ -190,12 +191,9 @@ h3 {
         display: none;
     }
 
-    .imie {
-        font-size: 10vw;
-    }
-
-    .skontaktuj {
-        font-size: 10vw;
+    h1 {
+        font-size: 40px;
+        line-height: 38px;
     }
 
 }
